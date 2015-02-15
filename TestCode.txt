@@ -1,0 +1,2 @@
+testing the psuedo solution can be done running the java file /jpmcScheduler/test/com/jpmc/scheduler/resource/producer/test/AdvanceSchedulerTest.java 
+in eclipse. 

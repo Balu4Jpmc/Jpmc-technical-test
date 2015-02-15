@@ -1,1 +1,0 @@
-# Jpmc-technical-test

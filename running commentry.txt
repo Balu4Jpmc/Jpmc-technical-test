@@ -1,0 +1,84 @@
+1. Business case:
+
+first i would list down the problems with the current system and the business need for looking for a new solution. 
+
+1.1 The current state : 
+	The current Resource Scheduler uses a very expensive 3rd party external resource which processes for a long time on the messages it recieves. 
+Interface classes are : Gateway & Message. 
+
+1.2 Business Need: 
+The number of external resources increased and business do not want them to be idle. 
+
+1.3 Requirements : 
+1.3.1 A class or classes to work based on the number of available external resources. 
+
+1.3.2 Recieves messages and queues them  up if they cannot be processed. 
+
+1.3.3 As the available resources become available, the resources scheduler sends the correct message to gateway. 
+
+
+2. Estimate
+Since it's a max. 4 hour task, i shall take 1 hour to design, 
+30 mins to develop a psuedo code. 
+1 hour to unit-test and add Junit classes.
+1 hour to check if solution meets the business and fix any bugs.  
+
+3. Design. 
+
+I will start by choosing the objects and their relationships with eachother. 
+
+3.1 A MessageGroup class to store multiple message objects.
+But Message is an interface class. 
+So, lets create a MessageInfo class that implements Message and stores HashMap of Messages and groupId for the messageInfo. 
+
+3.2 set of behaviours could mean the methods required in the main class (lets name it 'AdvanceScheduler')  
+
+3.3 AdvanceScheduler Object would have the following methods :
+
+3.3.1 forward()
+if external resources are available, i.e. not busy - send 1 msg to Gateway's send method of each external resource. this becomes busy then.
+forward and send methods need to be synchronized. 
+
+3.3.2 queue()
+if external resource not available, message should be in queue and the messages are sent on first come first processed basis. 
+if message is completed (gateway invokes message's complete() method), then queues messages must be processed. 
+
+3.3.3 prioritise()
+if multiple messages from multiple groups are present, messages from the group that started first should be processed first. 
+
+3.4 Atleast one of the following features are required. So, these can be in subclasses. 
+
+3.4.1 cancel()
+if a group message is cancelled, no messages from that group should be forwarded to gateway. 
+
+3.4.2 prioritize()
+override the base class logic to alter the prioritization algorithm.
+
+3.4.3 terminate()
+the last message of a group has terminate message, once that is processed, if any new message from that group is forwarded, an error should be thrown. 
+
+classes : MessageGroup, MessageInfo, AdvanceScheduler
+interfaces : Message, Gateway
+
+Looking at the method behaviours, the above problem can be solved  using Producer Consumer design pattern. 
+
+Producer is AdvanceScheduler. Consumer is Gateway. 
+
+lets name the packages as 
+com.jpmc.scheduler.resource.producer to store the classes
+com.jpmc.sheduler.resource.consumer to store the Gateway interface and its subclass.
+com.jpmc.sheduler.resource.item to store Message interface and its subclass.
+
+
+4. Develop
+lets start developing the code in eclipse based on the design above. 
+
+
+5. Test
+Couldn't complete the entire implementation and testing in 4 hours. 
+Need more time to understand the data flow. 
+
+6. Recommendations
+The Producer Consumer design pattern is the solution for the excercise. 
+
+

@@ -1,0 +1,76 @@
+01:03:08  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 12 -Started the Scheduler
+01:05:17  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 12 -Started the Scheduler
+01:05:17  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+01:05:51  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 12 -Started the Scheduler
+01:05:51  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+01:56:51  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 15 -Started the Scheduler
+01:57:31  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 15 -Started the Scheduler
+02:00:40  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 16 -Started the Scheduler
+02:00:40  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+02:04:39  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 16 -Started the Scheduler
+02:04:39  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+02:11:02  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 16 -Started the Scheduler
+02:11:02  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+02:11:02  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
+02:12:02  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 16 -Started the Scheduler
+02:12:02  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+02:12:02  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
+02:17:37  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 16 -Started the Scheduler
+02:17:37  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 21 -message to forwar are {1=begin 1 message, 2=middle 1 message, 3=terminate 1 message}
+02:17:37  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+02:17:37  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
+02:32:53  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 16 -Started the Scheduler
+02:32:53  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 24 -messages from group are {1=begin 1 message, 2=middle 1 message, 3=terminate 1 message}
+02:32:53  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 26 -message being sent nowbegin 1 message
+02:32:53  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+02:32:53  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
+02:33:32  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 16 -Started the Scheduler
+02:33:32  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 24 -messages from group are {1=begin 1 message, 2=middle 1 message, 3=terminate 1 message}
+02:33:32  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 26 -message being sent now begin 1 message
+02:33:32  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+02:33:32  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
+02:35:45  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 16 -Started the Scheduler
+02:35:45  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 24 -messages from group are {1=begin 1 message, 2=middle 1 message, 3=terminate 1 message}
+02:35:45  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 26 -message being sent now begin 1 message
+02:35:45  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+02:35:45  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
+02:48:54  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 16 -Started the Scheduler
+02:48:54  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 24 -messages from group are {1=begin 1 message, 2=middle 1 message, 3=terminate 1 message}
+02:48:54  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 26 -message being sent now begin 1 message
+02:48:54  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+02:48:54  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
+02:50:56  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 16 -Started the Scheduler
+02:50:56  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 24 -messages from group are {1=message 1 group1, 2=message 2 group1, 3= message terminate group1}
+02:50:56  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 26 -message being sent now message 1 group1
+02:50:56  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+02:50:56  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
+03:06:05  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.main 16 -Started the Scheduler
+03:06:05  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 24 -messages from group are {1=message 1 group1, 2=message 2 group1, 3= message terminate group1}
+03:06:05  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 26 -message being sent now message 1 group1
+03:06:05  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+03:06:05  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
+03:06:32  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 24 -messages from group are {1=message 1 group1}
+03:06:32  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 26 -message being sent now message 1 group1
+03:06:32  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+03:06:32  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
+03:06:54  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 24 -messages from group are {1=message 1 group1}
+03:06:54  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 26 -message being sent now message 1 group1
+03:06:54  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+03:06:54  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
+03:08:19  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 24 -messages from group are {1=message 1 group2}
+03:08:19  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 24 -messages from group are {1=message 1 group1}
+03:08:19  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 26 -message being sent now message 1 group1
+03:08:19  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+03:08:19  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
+03:09:38  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 24 -messages from group are {1=message 1 group1}
+03:09:38  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 26 -message being sent now message 1 group1
+03:09:38  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+03:09:38  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
+03:12:05  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 24 -messages from group are {1=message 1 group1}
+03:12:05  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 26 -message being sent now message 1 group1
+03:12:05  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+03:12:05  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
+03:12:49  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 24 -messages from group are {1=message 1 group1}
+03:12:49  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.forward 26 -message being sent now message 1 group1
+03:12:49  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.send 13 -message sent for processing
+03:12:49  INFO [main] - com.jpmc.scheduler.resource.producer.AdvanceScheduler.completed 35 -message completed
